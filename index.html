@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8">
+	<title>HarKenSol</title>
+	<meta name="description" content="">
+	<meta name="author" content="eriktailor">
+
+	<!-- Mobile Specific Metas
+    ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="font/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/styleswitcher.css">
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+	<!-- Google Webfonts
+	================================================== -->	
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	
+	<style>
+	
+	body {background: #EFEFEF;}
+	#landing-header {margin: 100px 0 20px;}
+	.landing-title {text-align: center; color: #D76B00;}
+	#landing-footer {margin: 50px 0;}
+	.landing-copyright {text-align: center; color: #CECECE;}
+	.layout-option {opacity: 0;}
+	</style>
+
+</head>
+<body>
+
+<!-- Primary Page Layout
+================================================== -->
+
+<!-- Wrapper -->
+<div id="main-wrapper">
+
+	<header id="landing-header">
+
+		<div class="container">	
+		
+			<div class="sixteen columns">
+			
+				<h1 class="section-title">AvaLance</h1>
+				
+				<p class="lead">AvaLance is an Unique, fully Responsive One-Page Portfolio Template with amazing features, built with passion using the latest HTML5 / CSS3 techniques.</p>
+			
+				<div class="divider"></div>
+			
+			</div>
+			
+		</div>
+		
+	</header>
+
+
+	<section id="layout-options">
+
+		<div class="container">
+		
+			<a href="home.html">
+				<figure class="one-third column portfolio-item layout-option">
+					<div class="picture"><img src="img/styleswitcher/option_01.jpg" alt=""/></div>
+					<figcaption class="portfolio-item-title"><span>+</span>Home with background image</figcaption>	
+				</figure>
+			</a>
+			
+			<a href="home-slider.html">		
+				<figure class="one-third column portfolio-item layout-option">
+					<div class="picture"><img src="img/styleswitcher/option_02.jpg" alt=""/></div>
+					<figcaption class="portfolio-item-title"><span>+</span>Home with background slider</figcaption>	
+				</figure>
+			</a>		
+			
+			<a href="home-video.html">		
+				<figure class="one-third column portfolio-item layout-option">
+					<div class="picture"><img src="img/styleswitcher/option_03.jpg" alt=""/></div>
+					<figcaption class="portfolio-item-title"><span>+</span>Home with background video</figcaption>	
+				</figure>
+			</a>		
+
+		</div>
+
+	</section>
+
+	<footer id="landing-footer">
+
+		<div class="container">
+		
+			<div class="sixteen columns">
+			
+				<p class="landing-copyright">AvaLance HTML © Copyright 2013</p>
+				
+			</div>
+			
+		</div>
+		
+	</footer>
+
+</div><!-- end wrapper -->
+
+
+<!-- Javascript Files
+================================================== -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.lettering.js"></script>
+	<script type="text/javascript" src="js/jquery.textillate.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
+	<script type="text/javascript" src="js/style.switcher.js"></script>	
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<script>
+	
+		var layoutOpt=$('.layout-option');
+		
+		layoutOpt.each(function(i){
+			$(this).css('animation-delay', (i*0.35)+"s");
+		});
+		
+		layoutOpt.addClass('animated fadeInUp');
+	
+	</script>
+	
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
