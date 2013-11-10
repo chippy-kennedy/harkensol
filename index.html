@@ -9,8 +9,8 @@
     ================================================== -->
 	<meta charset="utf-8">
 	<title>HarKenSol</title>
-	<meta name="description" content="">
-	<meta name="author" content="eriktailor">
+	<meta name="description" content="HarKenSol Home">
+	<meta name="author" content="chippy">
 
 	<!-- Mobile Specific Metas
     ================================================== -->
@@ -41,15 +41,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	
-	<style>
-	
-	body {background: #EFEFEF;}
-	#landing-header {margin: 100px 0 20px;}
-	.landing-title {text-align: center; color: #D76B00;}
-	#landing-footer {margin: 50px 0;}
-	.landing-copyright {text-align: center; color: #CECECE;}
-	.layout-option {opacity: 0;}
-	</style>
+
 
 </head>
 <body>
@@ -60,70 +52,564 @@
 <!-- Wrapper -->
 <div id="main-wrapper">
 
-	<header id="landing-header">
+	<!-- Header -->
+	<header id="header">
 
-		<div class="container">	
+			<!-- Background Slider -->
+			<div id="background-slider" class="cycle-slideshow" data-cycle-fx="fade" data-cycle-timeout="3500" data-cycle-slides="> div">
+				<div class="bg-slides bg-slide-01"></div>
+				<div class="bg-slides bg-slide-02"></div>
+				<div class="bg-slides bg-slide-03"></div>
+			</div>
+			
+			<!-- Background Pattern Overlay -->
+			<div id="pattern-overlay"></div>			
+			
+			<div class="container">
+				
+				<div class="sixteen columns">
+					
+					<!-- Header Content -->
+					<div class="header-content">
+						
+						<!-- Header Logo -->
+						<img src="img/header_logo.png" alt="HarKenSol" />
+							
+						<!-- Header Title -->
+						<h1 class="header-title">
+							<span class="texts">
+								<span data-out-effect="fadeOut" data-out-shuffle="true">Knowlege in the Roots</span>   
+								<span data-in-effect="fadeInUp"> Ideas in the Treetop</span>
+							</span>
+						</h1>
+							
+						<p class="lead">Your project, a huge tree. Meet the programmers that will build it from the roots up.</p>
+						
+					</div>
+						
+				</div>
+				
+		
+			</div><!-- end container -->
+	
+	</header><!-- end header -->
+
+
+	<!-- Navigation -->	
+	<div id="navigation">
+	
+		<div class="container">
+		
+			<div class="four columns">
+			
+				<!-- Logo -->
+				<a href="#" class="logo"></a>
+				
+				<!-- Mobile Menu -->
+				<div class="mobile-menu">
+					<span class="icon icon-list"></span>
+				</div>
+					
+			</div>
+			
+			<div class="twelve columns">
+			
+				<!-- Menu -->
+				<nav id="menu">
+					<ul>
+						<li><a href="#" class="menu-item">Home</a></li>
+						<li><a href="#services" class="menu-item">Services</a></li>						
+						<li><a href="#about" class="menu-item">About</a></li>						
+						<li><a href="#portfolio" class="menu-item">Portfolio</a></li>						
+						<li><a href="#contact" class="menu-item">Contact</a></li>						
+					</ul>
+				</nav>
+
+			</div>
+
+		</div><!-- end container -->
+	
+	</div><!-- end navigation -->
+	
+	<!-- Services -->
+	<section id="services">
+	
+		<div class="container">
+		
+			<div class="sixteen columns">	
+			
+				<h1 class="section-title">HarKenSol</h1>
+				
+				<p class="lead">Dedicated undergrads solving problems.</p>
+                <p class="lead">
+                    HarKenSol is looking for anyone excited to turn an online project into a reality. And as our team grows, we need dedicated programmers who are just as excited to code.</p>
+				
+			</div>
+
+			<!-- Service 1 -->
+			<div class="one-half column">
+				<figure class="service-item">
+					<figcaption class="service-item-title">
+						<span>+</span>
+						<a href="apply-form_temp.html">Code on Your Own Terms</a>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<!-- Service 2 -->			
+			<div class="one-half column">
+				<figure class="service-item">
+					<figcaption class="service-item-title">
+						<span>+</span>
+						<a href="project-form_temp.html">Start Your Project</a>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="clear"></div>
+
+		</div><!-- end container -->
+		
+	
+	</section><!-- end services -->
+    
+	<!-- Portfolio -->	
+	<section id="portfolio">
+	
+		<div class="container">
+			
+			<div class="sixteen columns">
+			
+				<h1 class="section-title">What We Do</h1>
+				
+				<p class="lead">Portfolio of past and current projects</p>
+
+				<!-- Filtering-->
+				<div id="filters">
+
+					<ul class="option-set" data-option-key="filter">
+					
+						<!-- Filter 1-->
+						<li><a href="#filter" data-option-value="*" class="selected">
+							<i class="icon icon-th"></i><span class="filter-title">All</span>
+						</a></li>
+						
+						<!-- Filter 2-->
+						<li><a href="#filter" data-option-value=".web_mobile_dev">
+							<i class="icon icon-desktop"></i><span class="filter-title">Web & Mobile Dev.</span>
+						</a></li>
+						
+						<!-- Filter 3-->
+						<li><a href="#filter" data-option-value=".integratedtechnology">
+							<i class="icon icon-wrench"></i><span class="filter-title">Integrated Technology</span>
+						</a></li>
+						
+						<!-- Filter 4-->
+						<li><a href="#filter" data-option-value=".nonprofit">
+							<i class="icon icon-globe"></i><span class="filter-title">Non-Profit Projects</span>
+						</a></li>
+						
+						<!-- Filter 5-->
+						<li><a href="#filter" data-option-value=".sideprojects">
+							<i class="icon icon-pencil"></i><span class="filter-title">Side Projects</span>
+						</a></li>
+						
+					</ul>
+					
+					<div class="clear"></div>
+
+				</div>
+				
+			</div>
+			
+		</div><!-- end container -->
+		
+		<div class="container">
+			
+			<!-- Portfolio Content -->
+			<div id="portfolio-wrapper">
+					
+				<!-- Portfolio Item -->
+				<a href="portfolio-details_citc.html" class="web_mobile_dev nonprofit">				
+					<figure class="one-third column portfolio-item">
+						<div class="picture"><img src="img/portfolio/citc.jpg" alt=""/></div>
+						<figcaption class="portfolio-item-title"><span>+</span>Christmas in the City</figcaption>	
+					</figure>
+				</a>				
+
+				<!-- Portfolio Item -->
+				<a href="portfolio-details_mhacks.html" class="we_mobile_dev sideprojects">					
+					<figure class="one-third column portfolio-item">			
+						<div class="picture"><img src="img/portfolio/MHacks_titlepage_gs.jpg" alt=""/></div>
+						<figcaption class="portfolio-item-title"><span>+</span>Hack-a-thon Projects</figcaption>						
+					</figure>
+				</a>				
+				
+				<!-- Portfolio Item -->
+				<a href="portfolio-details_saph.html" class="web_mobile_dev">					
+					<figure class="one-third column portfolio-item">				
+						<div class="picture"><img src="img/portfolio/sapphire_gs.jpg" alt=""/></div>
+						<figcaption class="portfolio-item-title"><span>+</span>Sapphire Company</figcaption>	
+					</figure>
+				</a>				
+				
+				<!-- Portfolio Item -->
+				<a href="portfolio-details_soil.html" class="integratedtechnology web_mobile_dev">				
+					<figure class="one-third column portfolio-item">					
+						<div class="picture"><img src="img/portfolio/soil.jpg" alt=""/></div>
+						<figcaption class="portfolio-item-title"><span>+</span>Smart Oil Solutions</figcaption>						
+					</figure>
+				</a>				
+
+				
+				<!-- Portfolio Item -->
+				<a href="portfolio-details_osu.html" class="integratedtechnology web_mobile_dev">
+					<figure class="one-third column portfolio-item">					
+						<div class="picture"><img src="img/portfolio/osu.jpg" alt=""/></div>
+						<figcaption class="portfolio-item-title"><span>+</span>Ohio State University Greek Life Mobile App</figcaption>								
+					</figure>
+				</a>	
+                
+                <!-- Portfolio Item -->
+				<a href="portfolio-details_med.html" class="integratedtechnology web_mobile_dev">
+					<figure class="one-third column portfolio-item">					
+						<div class="picture"><img src="img/portfolio/med.jpg" alt=""/></div>
+						<figcaption class="portfolio-item-title"><span>+</span>Medectomy</figcaption>								
+					</figure>
+				</a>	
+				
+			</div><!-- end portfolio content -->
+
+
+		</div><!-- end container -->
+	
+	</section><!-- end portfolio -->
+
+	
+	
+	<!-- About Us -->
+	<section id="about">
+	
+		<div class="container">
 		
 			<div class="sixteen columns">
 			
-				<h1 class="section-title">AvaLance</h1>
+				<h1 class="section-title">Who We Are</h1>
 				
-				<p class="lead">AvaLance is an Unique, fully Responsive One-Page Portfolio Template with amazing features, built with passion using the latest HTML5 / CSS3 techniques.</p>
-			
+				<p class="lead">We are a group of Computer Science undergrads at Case Western Reserve University. We enjoy taking on development, I.T., and deployment projects of any kind and making them work well.</p>
+				
 				<div class="divider"></div>
+				
+			</div>	
+
+			<!-- Team Member 1 -->
+			<div class="five columns">
+				<div class="team-member">
+					<a href="#" data-toggle="#firstMember">
+						<img src="img/team/mj_s.jpg" alt="MJ Harkins" />
+						<div class="bullet"></div>
+					</a>
+				</div>
+			</div>	
+
+			<!-- Team Member 2 -->
+			<div class="five columns">
+				<div class="team-member">
+					<a href="#" data-toggle="#secondMember">				
+						<img src="img/team/chippy_s.jpg" alt="Chippy Kennedy" />
+						<div class="bullet"></div>
+					</a>
+				</div>
+			</div>		
+
+			<!-- Team Member 3 -->			
+			<div class="five columns">
+				<div class="team-member">
+					<a href="#" data-toggle="#thirdMember">
+						<img src="img/team/abdallah_s.jpg" alt="Abdallah Soliman" />
+						<div class="bullet"></div>
+					</a>
+				</div>
+			</div>		
 			
+
+			<!-- Team Member 1 details -->
+			<div class="memberProfile" id="firstMember">
+				<div class="member-info">
+					<h2 class="member-name">MJ Harkins<span>Database Development</span></h2>
+					<div class="member-details">
+						<h3>Information</h3>
+						<p>Junior at Case Western Reserve. Gamer, Runner, parent away from home.</p>
+					</div>
+					<div class="member-skills">
+						<h3>Experiences</h3>
+						<p>Information Technology Early Professional at General Electric: designed, developed, and implemented Oracle database functions.</p>
+						<ul>
+							<li>+ Python</li> 
+							<li>+ Java, C, C#</li>
+							<li>+ Linux</li>
+                            <li>+ SQL</li>
+						</ul>
+					</div>
+				</div>
+				<div class="member-photo">
+					<img src="img/team/mj_b.jpg" alt="" />
+						<ul class="social-networks">
+							<li><a href="https://twitter.com/MJ_Harkins"><i class="icon icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/michaelpatrickharkins"><i class="icon icon-facebook"></i></a></li>
+                            <li><a href="http://www.linkedin.com/pub/michael-harkins/47/735/861"><i class="icon icon-linkedin"></i></a></li>
+						</ul>
+					<div class="close"></div>						
+				</div>
 			</div>
-			
-		</div>
+				
+			<!-- Team Member 2 details -->
+			<div class="memberProfile" id="secondMember">
+				<div class="member-info">
+					<h2 class="member-name">Chippy Kennedy<span>Web Development</span></h2>
+					<div class="member-details">
+						<h3>Information</h3>
+						<p>Sophomore at Case Western Reserve. Traveler, steeple-chaser, and unable to make instant easy-mac.</p>
+					</div>
+					<div class="member-skills">
+						<h3>Experiences</h3>
+						<p>Developed this HarKenSol frontend website. Worked I.T. and development for Thayer Academy High School, Braintree, MA.</p>
+						<ul>
+							<li>+ Java,C</li> 
+							<li>+ Ruby on Rails</li>
+							<li>+ HTML5 and CSS</li>
+                            <li>+ Node.js, express.js</li>
+						</ul>
+					</div>
+				</div>
+				<div class="member-photo">
+					<img src="img/team/chippy_b.jpg" alt="" />
+						<ul class="social-networks">
+							<li><a href="https://twitter.com/chippykennedy"><i class="icon icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon icon-facebook"></i></a></li>
+                            <li><a href="http://www.linkedin.com/pub/chippy-kennedy/58/ba5/384"><i class="icon icon-linkedin"></i></a></li>
+						</ul>
+					<div class="close"></div>						
+				</div>
+			</div>	
+
+			<!-- Team Member 3 details -->			
+			<div class="memberProfile" id="thirdMember">
+				<div class="member-info">
+					<h2 class="member-name">Abdallah Soliman<span>Backend/Frontend Web Development</span></h2>
+					<div class="member-details">
+						<h3>Information</h3>
+						<p>Sophomore at Case Western Reserve. Fluent in Arabic, Suave, and truly amazing at foregoing sleep</p>
+					</div>
+					<div class="member-skills">
+						<h3>Experiences</h3>
+						<p>Mobile App Developer for Ohio State Greek Life Application, Columbus, OH. CTO for Sapphire Education Starup, Cleveland, OH. Main Developer and Designer for Pasture Raised. And many more. </p>
+						<ul>
+							<li>+ Ruby, Ruby on Rails</li> 
+							<li>+ Java, Python, Linux</li>
+							<li>+ Magento API</li>
+                            <li>+ SQL, MySQL</li>
+                            <li>+ HTML, CSS, SASS</li>
+						</ul>
+					</div>
+				</div>
+				<div class="member-photo">
+					<img src="img/team/abdallah_b.jpg" alt="" />
+						<ul class="social-networks">
+							<li><a href="https://twitter.com/imasoliman"><i class="icon icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/abdallah.soliman.33?fref=ts"><i class="icon icon-facebook"></i></a></li>
+                            <li><a href="www.linkedin.com/pub/abdallah-soliman/6b/587/188"><i class="icon icon-linkedin"></i></a></li>
+						</ul>
+					<div class="close"></div>						
+				</div>
+			</div>	
+
+			<div class="clear"></div>
+				
+		</div><!-- end container -->
 		
-	</header>
-
-
-	<section id="layout-options">
-
+	</section><!-- end about us -->
+	
+	
+	<!-- Work Process -->
+	<section id="process">
+	
 		<div class="container">
 		
-			<a href="home.html">
-				<figure class="one-third column portfolio-item layout-option">
-					<div class="picture"><img src="img/styleswitcher/option_01.jpg" alt=""/></div>
-					<figcaption class="portfolio-item-title"><span>+</span>Home with background image</figcaption>	
-				</figure>
-			</a>
+			<div class="sixteen columns">	
 			
-			<a href="home-slider.html">		
-				<figure class="one-third column portfolio-item layout-option">
-					<div class="picture"><img src="img/styleswitcher/option_02.jpg" alt=""/></div>
-					<figcaption class="portfolio-item-title"><span>+</span>Home with background slider</figcaption>	
-				</figure>
-			</a>		
-			
-			<a href="home-video.html">		
-				<figure class="one-third column portfolio-item layout-option">
-					<div class="picture"><img src="img/styleswitcher/option_03.jpg" alt=""/></div>
-					<figcaption class="portfolio-item-title"><span>+</span>Home with background video</figcaption>	
-				</figure>
-			</a>		
-
-		</div>
-
-	</section>
-
-	<footer id="landing-footer">
-
-		<div class="container">
-		
-			<div class="sixteen columns">
-			
-				<p class="landing-copyright">AvaLance HTML © Copyright 2013</p>
+				<h1 class="section-title">How We Do It</h1>
+				
+				<p class="lead">  </p>
+				
+				<div class="divider"></div>	
 				
 			</div>
 			
-		</div>
+			<!-- Process Part 1 -->
+			<div class="four columns">
+				<div class="process-part">
+					<a href="#" data-toggle="#firstProcess">	
+						<div class="process-icon first"></div>
+						<h2 class="process-title">Build Project Team</h2>
+						<div class="bullet"></div>
+					</a>
+				</div>
+			</div>
+			
+			<!-- Process Part 2 -->			
+			<div class="four columns">
+				<div class="process-part">
+					<a href="#" data-toggle="#secondProcess">	
+						<div class="process-icon second"></div>
+						<h2 class="process-title">Stay Organized</h2>
+						<div class="bullet"></div>
+					</a>
+				</div>
+			</div>
+
+			<!-- Process Part 3 -->			
+			<div class="four columns">
+				<div class="process-part">
+					<a href="#" data-toggle="#thirdProcess">	
+						<div class="process-icon third"></div>
+						<h2 class="process-title">Some Hardcore Coding</h2>
+						<div class="bullet"></div>
+					</a>
+				</div>
+			</div>
+
+			<!-- Process Part 4 -->			
+			<div class="four columns">
+				<div class="process-part">
+					<a href="#" data-toggle="#fourthProcess">	
+						<div class="process-icon fourth"></div>
+						<h2 class="process-title">Damn Good Final Project</h2>
+						<div class="bullet"></div>
+					</a>
+				</div>
+			</div>
+			
+
+			<!-- Process Part 1 details -->	
+			<div class="processInfo" id="firstProcess">	
+				<div class="close"></div>			
+				<div class="process-detail">
+					<img src="img/process/process_detail_01.png" alt="Information" />
+					<div class="process-detail-text">
+						<h2 class="process-detail-title">Build a Project Team</h2>
+						<p>HarKenSol's core team is a gorup of computer science undergrads. For any given project we might bring more coders, designers, management specialists, business majors, doctors, lawyers, doctors. As college students we have access to virtualy any specialty to supplement our programming knowledge. And there is no shortage of eager young entrepenuers to join us and put their best work into your project </p>
+					</div>
+				</div>					
+			</div>
+
+			<!-- Process Part 2 details -->				
+			<div class="processInfo" id="secondProcess">
+				<div class="close"></div>			
+				<div class="process-detail">
+					<img src="img/process/process_detail_01.png" alt="Wireframe Making" />
+					<div class="process-detail-text">
+						<h2 class="process-detail-title">Stay Organized</h2>
+						<p>Every HarKenSol project, whether an internal side project or a major contract, is assigned a project manager in charge of the HarKenSol team. This assures that deadlines are met, communication is happening throughout, and as the idea changes, the team is able to change with it </p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Process Part 3 details -->					
+			<div class="processInfo" id="thirdProcess">
+				<div class="close"></div>			
+				<div class="process-detail">
+					<img src="img/process/process_detail_01.png" alt="Working on files" />
+					<div class="process-detail-text">
+						<h2 class="process-detail-title">Some Hardcore Coding</h2>
+						<p>Why use undergrads? Because we all live with each other, are way too good at getting homework done, and don't really seem to need sleep. These days anything from a simple webapp to machine integration calls for multiple coding laguages, advanced computer science concepts, and a whole lot of learning on a development team's part. Are promise is to get everything you need done well and on time, even if it takes a couple of all nighters along the way </p>
+					</div>
+				</div>
+			</div>	
+
+			<!-- Process Part 4 details -->		
+			<div class="processInfo" id="fourthProcess">
+				<div class="close"></div>			
+				<div class="process-detail">
+					<img src="img/process/process_detail_01.png" alt="Final delivery" />
+					<div class="process-detail-text">
+						<h2 class="process-detail-title">Damn Good Final Project</h2>
+						<p>In the end you will have a project that goes beyond your expectations and a core team of developers that will be available to troubleshoot any future problems you may have...we mean any problem, any time in the future. Even twenty years from now </p>
+					</div>
+				</div>
+			</div>					
 		
-	</footer>
+		</div><!-- end container -->
+	
+	</section><!-- end work process -->
+
+	
+	<!-- Contact -->
+	<section id="contact">
+	
+		<div class="container">
+		
+			<div class="sixteen columns">		
+			
+				<h1 class="section-title">Contact Us</h1>
+				
+				<p class="lead">Inquiries into future projects, more information about past projects, or to get in touch</p>	
+				
+			</div>
+			
+			<!-- Contact Info 1 -->
+			<div class="one-half column">
+				<div class="contact-info">
+					<h2 class="contact-title">New Projects and General Inquiries</h2>
+					<p><a href="#" class="link">info@harkensol.com</a></p>
+					<p><i class="icon icon-phone-sign"></i>781.686.0332</p>
+                    <a href="project-form_temp.html" class="small-button">Start Project!</a>
+				</div>
+			</div>
+			
+			<!-- Contact Info 2 -->			
+			<div class="one-half column">
+				<div class="contact-info">
+					<h2 class="contact-title">Information about Joining our Dev Team</h2>
+					<p><a href="#" class="link">careers@harkensol.com</a></p>
+					<p><i class="icon icon-phone-sign"></i>781.686.0332</p>
+					<a href="apply-form_temp.html" class="small-button">View Careers</a>
+				</div>
+			</div>
+
+		</div><!-- end container -->
+	
+	</section><!-- end contact -->
+	
+	
+	<!-- Footer -->
+	<footer id="footer">
+	
+		<div class="container">
+		
+			<div class="eight columns">
+				<p class="copyright-text">HarKenSol - All Rights Reserved.</p>
+			</div>
+			
+			<!-- Social Networks -->
+			<div class="eight columns">
+			
+				<!-- Social Icons-->
+				<ul class="social-networks">
+					<li><a href="https://www.facebook.com/pages/Harkensol/188035608039391"><i class="icon icon-facebook"></i></a></li>
+					<li><a href="https://twitter.com/harkensol"><i class="icon icon-twitter"></i></a></li>					
+					<li><a href="#"><i class="icon icon-google-plus"></i></a></li>					
+					<li><a href="#"><i class="icon icon-linkedin"></i></a></li>					
+					<li><a href="#"><i class="icon icon-dribbble"></i></a></li>					
+				</ul>
+				
+			</div>
+		
+		</div><!-- end container -->
+	
+	</footer><!-- end footer -->
 
 </div><!-- end wrapper -->
-
 
 <!-- Javascript Files
 ================================================== -->
@@ -132,7 +618,7 @@
 
 	<script type="text/javascript" src="js/jquery.lettering.js"></script>
 	<script type="text/javascript" src="js/jquery.textillate.js"></script>
-	<script type="text/javascript" src="js/jquery.cycle.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.js"></script>
 	<script type="text/javascript" src="js/jquery.isotope.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
@@ -141,18 +627,6 @@
 
 	<script type="text/javascript" src="js/style.switcher.js"></script>	
 	<script type="text/javascript" src="js/script.js"></script>
-	
-	<script>
-	
-		var layoutOpt=$('.layout-option');
-		
-		layoutOpt.each(function(i){
-			$(this).css('animation-delay', (i*0.35)+"s");
-		});
-		
-		layoutOpt.addClass('animated fadeInUp');
-	
-	</script>
 	
 
 <!-- End Document
