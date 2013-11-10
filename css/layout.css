@@ -708,10 +708,13 @@ html, body {height: 100%;}
 
 .office-info.right {text-align: right;}
 
+/*#headcontainer {width:}
+
+
 /* CSS for fixed-fluid layout */
 
 .fixed {
-    width: 150px;  /* the fixed width required */
+    width: 250px;  /* the fixed width required */
     float: left;
 }
 
