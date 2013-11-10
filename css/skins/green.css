@@ -1,0 +1,75 @@
+/* Template: AvaLanche | Author: chippy | Version: 1.0  */
+/*----------------------------------------------------------*/
+
+/* -------------------------------- */
+/* # Green Skin */
+/* -------------------------------- */
+
+
+/* Section Titles */
+.section-title {color: #005300;}
+
+/* Logo */
+.logo {background: url('../../img/logo_green.png') no-repeat 0 50%;}
+
+/* Text Links */
+a:hover, a:focus { color: #005300;}
+
+/* Menu item hover */
+#menu a:hover {color: #005300;}
+
+/* Mobile menu icon */
+.mobile-menu .icon {color: #005300;}
+
+/* Portfolio Item */
+.portfolio-item-title span {color: #005300;}
+.portfolio-item:hover {background: #005300;}
+.portfolio-item-title span {color: #005300;}
+
+/* Portfolio Filtering */
+.option-set a:hover .icon {color: #005300; }
+.option-set a:hover .filter-title {color: #005300;}
+.option-set a:hover .icon {box-shadow: 0 0 0 8px #005300;}
+.option-set a:hover .icon {box-shadow: 0 0 0 7px #005300; color: #005300;}
+
+/* Team Member active */
+.team-member:hover, .team-member-active {border: 15px solid #005300;}
+.memberProfile {background: #005300;}
+.bullet {background: url("../../img/bullet_green.png");}
+
+/* Our Process icons */
+.process-icon.first  {background: url('../../img/process/process_01_green.png') no-repeat 50% 0;}
+.process-icon.second {background: url('../../img/process/process_02_green.png') no-repeat 50% 0;}
+.process-icon.third  {background: url('../../img/process/process_03_green.png') no-repeat 50% 0;}
+.process-icon.fourth {background: url('../../img/process/process_04_green.png') no-repeat 50% 0;}
+
+/* Our Process details */
+.processInfo {background: #005300;}
+
+/* Service Item */
+.service-item:hover {background: #005300;}
+.service-item-title span {color: #005300;}
+.service-item:hover .icon {color: #005300;}
+
+/* Testimonials Slider controls */
+.prev:hover .icon, .next:hover .icon {color: #005300;}
+
+/* Blog Item */
+.blog-item-title .line-1 {background: #005300;}
+.blog-article-intro {background: rgba(215,107,0,0.9);}
+
+/* Contact */
+.contact-title {color: #005300;}
+.small-button {background: #005300;}
+.map-title {color: #005300;}
+.office-info.right a {color: #005300;}
+.contact-info .icon {color: #005300;}
+
+/* Footer */
+#footer {background: #005300;}
+
+
+
+
+
+

@@ -20,6 +20,7 @@
 /* DECLARE COLORS */
 .colors .warm {background: #D76B00;}
 .colors .cold {background: #77c4bc;}
+.colors .green {background: #008A00;}
 
 /* DECLARE PATTERNS */
 .patterns .patternFirst {background: url('../img/styleswitcher/pattern_01.jpg') no-repeat;}
